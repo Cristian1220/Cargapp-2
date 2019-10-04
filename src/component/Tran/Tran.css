@@ -1,0 +1,38 @@
+:root {
+    --color1:#D3E5FF;
+    --color2:#00c38c;
+    --color3:#010935;
+    --fondo:#ffff;
+    --titulos:40px;
+    --margenes:10px;
+    --espacios:15px;
+    --espacios-contenido:45px;
+  }
+
+.tranpor{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom,
+    rgba(104, 111, 114, 0.959),
+    rgba(140, 161, 233, 0.959),
+    rgba(86, 219, 119, 0.5),
+    );
+    z-index: 1000;
+}
+
+.fondo {
+    width: 100%;
+    height: 600px;
+    background-image: url('../../logos/tran.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textotran{
+       justify-content: center; 
+       text-align: center;
+       align-items: center;
+       vertical-align: middle;
+       padding-top: 300px;
+       color:#ffff;
+}
