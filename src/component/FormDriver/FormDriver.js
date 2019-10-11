@@ -1,79 +1,96 @@
 import React, { Component } from 'react';
 
-
 import './FormDriver.css';
 
 class FormDriver extends Component{
     render()  {
         return (
-           
-        <div>  
-         <form className="formularios">
-             
-             <div className="formulario1">  
-             <label className="text">Origen:</label>         
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Departamento"
-              /> 
-                     
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Ciudad"
-              />
+      <div>  
+            
+         <form className="formula1">
+             <h1 className="titulotrn">Gana más dinero con Cargapp</h1>
+         <div className="formulario3">     
+               <div className="uno"> 
+                   <input className="for1"
+                   type="text" 
+                   ame="username" 
+                   placeholder="Nombre completo"
+                   /> 
+                   <input className="for2"
+                   type="text" 
+                   name="username" 
+                   placeholder="Telefono"
+                   />
+               </div> 
+               <div className="dos">
+                   <label className="text">Origen</label>         
+                   <input  className="for1"
+                   type="text"  
+                   name="username" 
+                   placeholder="Despartamento"
+                   />
+                   <input  className="for2"
+                   type="text" 
+                   name="username" 
+                   placeholder="Ciudad"
+                   />
+                </div>
+                <div className="uno"> 
+                   <label className="text">destino</label>       
+                   <input className="for1"
+                   type="text" 
+                   ame="username" 
+                   placeholder="Departamento"
+                   /> 
+                   
+                   <input className="for2"
+                   type="text" 
+                   name="username" 
+                   placeholder="Ciudad"
+                   />
+                </div>
 
-              <label className="text">Destino</label>         
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Departamento"
-              />
-                  
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Ciudad"
-              />
-
-              </div>
-
-             <div className="formulario2">  
-             <label className="text">.</label>               
-             <input 
-              type="text" 
-              name="username"
-              placeholder="Que perfil eres de camionero"
-              />
-                  
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Tipo de camionero"
-              />
-             <label className="text">{'.'}</label>  
-             <input 
-              type="text" 
-              name="username" 
-              placeholder="tipo de carroceria"
-              />
-                  
-              <input 
-              type="text" 
-              name="username" 
-              placeholder="Años de experiencia"
-              />
-              </div>
-              <div className="button">
-            <button type="submil">Eviar</button>
-        </div>
-         </form>
-     
+                <div className="dos">
+                    <input className="for1"
+                    type="text" 
+                    name="username" 
+                    placeholder="Cual categoria es tu vehiculo"
+                    /> 
+                   
+                   <input className="for2"
+                   type="text" 
+                   name="username" 
+                   placeholder="Tipo de furgon"
+                   />
+                   <div className="dos">
+                    <input className="for1"
+                    type="text" 
+                    name="username" 
+                    placeholder="Tipo de camion"
+                    /> 
+                   
+                   <input className="for2"
+                   type="text" 
+                   name="username" 
+                   placeholder="Años de experiencia"
+                   />
+                   </div>
+                 </div> 
+                         
+            </div>
+              
+               <div className="button">
+                  <div className="button1" onClick="">
+                      <p className="botton">ENVIO</p>
+                  </div>
+               </div>  
+               
+            </form>
+        
         </div>
         );  
     }
-
+   
 }
 
 

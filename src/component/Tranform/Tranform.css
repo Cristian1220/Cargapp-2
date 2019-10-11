@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 100%;
     background: #172158;
-    height: 300px;
+    height: 350px;
 }
 
 .formulario3 {
@@ -86,7 +86,8 @@ input {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: white;
-    }
+    padding-bottom: -3px;
+}
 
 .titulotrn {
     display: flex;
@@ -95,5 +96,5 @@ input {
     font-family: monospace;
     color: #fff;
     background: #172158;
-    padding-top: 4px;
+    padding-top: 1px;
 }

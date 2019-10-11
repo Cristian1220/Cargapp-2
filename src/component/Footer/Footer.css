@@ -9,10 +9,6 @@
     --espacios-contenido:45px;
   }
 
-  .img {
-    background-image: url(../../logos/logo.ico);
-    background-size: 200px 250px;
-  }
 
 .footer {
     display: flex;

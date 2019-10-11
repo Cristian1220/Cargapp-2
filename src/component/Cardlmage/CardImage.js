@@ -8,7 +8,7 @@ class CardImage extends Component {
   render() { 
     return (
        <div className="content-card">
-          <a href="/Carrier">
+          <a href="/Company">
           <div className="content-card-image">
            <img className="people" src={camionero1} href=""/>         
             </div> </a>

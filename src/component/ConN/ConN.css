@@ -1,0 +1,27 @@
+.conN {
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 8%;
+    
+}
+
+.Ti {
+    display: flex;
+    color: black;;
+    font-size: 70px;
+    letter-spacing: -0.8px;
+    line-height: 60px;
+    
+    
+}
+
+.parrafoSub {
+    padding-top: 5%;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}

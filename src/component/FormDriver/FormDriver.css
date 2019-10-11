@@ -10,41 +10,90 @@
   }
 
 
-.formularios {
+.formula1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    background: #010935;
-    height: 300px;
+    background: #172158;
+    height: 530px;
 }
 
-.formulario1 {
+.formulario3 {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex:1;
-    margin: 30px 30px 30px 30px;
-    padding: 20px 20px 20px 20px;
+    width: 100%;
+ }
+
+
+.uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    padding: 3px 3px 3px 0px;
 }
 
-.formulario2 {
+
+.dos {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex:1;
-    width: 70%;
-    margin: 30px 30px 30px 30px;
-    padding: 40px 40px;
-    padding: 20px 20px 20px 20px;
-}
-button  {
-    display: flex;
-    justify-items: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 3px 3px 3px 0px; 
 }
 
 input {
-    margin: 10px 0 10px 0;
-    height: 50px;
-    width: 80%;
+    padding: 5px 13px;
+    height: 45px;
+    border: none;
+    background: #fff;
+}
+
+.for1 {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.for2 {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.button  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.button1 {
+    background: linear-gradient(to right,
+    rgb(0, 122, 205),
+    rgb(0, 255, 119)
+    );
+    width: 10%;
+    height: 40px;
+    color: white;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    }
+
+.titulotrn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: #fff;
+    background: #172158;
+    padding-top: 4px;
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-/* import fondo3 from '../..logos/fondo3'; */ 
-import './Content.css';
 
-class Content extends Component {
+import './Load.css';
+
+class Load extends Component {
     render() { 
         return (
              <section className="fondo contenedor" id="equipo">
@@ -18,4 +18,4 @@ class Content extends Component {
     }
 }
 
-export default Content;
+export default Load;
