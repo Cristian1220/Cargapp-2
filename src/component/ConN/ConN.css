@@ -14,7 +14,12 @@
     font-size: 70px;
     letter-spacing: -0.8px;
     line-height: 60px;
-    
+    font-size: 70px;
+    letter-spacing: -0.8px;
+    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    font-weight: 900;
     
 }
 
@@ -23,5 +28,5 @@
     font-size: 24px;
     margin-left: 5%;
     margin-right: 5%;
-   
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

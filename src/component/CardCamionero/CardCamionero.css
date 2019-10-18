@@ -1,0 +1,50 @@
+.CajaCammionero {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+
+}
+
+.TextoCamionero {
+    display: flex;
+    flex-direction: row;
+    color: black;;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    font-size: 24px;
+    box-shadow: 3px 15px 22px 0px #3535358f;
+    border-radius: 30px;
+    width: auto;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    align-self: center;
+}
+
+.ColorTitulo {
+    display: flex;
+    font-size: 90px;
+    letter-spacing: -0.8px;
+    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    font-weight: 900;
+    /* flex: 1;  */ 
+    /* padding:  4% 2%; */
+}
+
+.Parrafo {
+    flex: 1;
+    text-align: center;
+    color: black;;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 32px;
+   /*  padding:  2% 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7%;
+}

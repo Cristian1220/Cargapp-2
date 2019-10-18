@@ -6,7 +6,6 @@ class Tranform extends Component{
     render()  {
         return (
            
-        <div>  
             
          <form className="formula">
          <h1 className="titulotrn">Gana más dinero con Cargapp.</h1>
@@ -48,7 +47,6 @@ class Tranform extends Component{
             </div>  
          </form>
      
-        </div>
         );  
     }
 

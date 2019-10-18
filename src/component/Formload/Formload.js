@@ -6,7 +6,7 @@ class Formload extends Component{
     render()  {
         return (
            
-        <div>  
+          
             
          <form className="formula">
          <h1 className="titulotrn">Gana más dinero con Cargapp.</h1>
@@ -48,7 +48,7 @@ class Formload extends Component{
             </div>  
          </form>
      
-        </div>
+      
         );  
     }
 

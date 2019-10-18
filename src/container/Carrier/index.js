@@ -14,7 +14,6 @@ class Carrier extends Component {
   render() { 
     return (
       <div className='App'>
-        <Contentran/>
         <Tran/>
        <ContentCarrier/>
         <Tranform/>

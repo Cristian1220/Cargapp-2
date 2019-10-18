@@ -11,28 +11,33 @@
 
 .tranpor{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-image: linear-gradient(to bottom,
-    rgba(104, 111, 114, 0.959),
-    rgba(140, 161, 233, 0.959),
-    rgba(86, 219, 119, 0.5),
+    rgb(161, 231, 250, 0.5),
+    rgba(80, 83, 82, 0.5),
+    rgba(78, 77, 82, 0.5)
     );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     z-index: 1000;
 }
 
 .fondo {
     width: 100%;
-    height: 600px;
-    background-image: url('../../logos/tran.jpg');
+    height: 650px;
+    background-image: url('../../logos/generador.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .textotran{
-       justify-content: center; 
-       text-align: center;
-       align-items: center;
-       vertical-align: middle;
-       padding-top: 300px;
-       color:#ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translateX(-72%) translateY(-99%); 
+    width: 100%;
+    color:  #fff;
+    text-align: center;
+    height: 100px;
 }

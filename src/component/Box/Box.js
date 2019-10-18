@@ -10,10 +10,10 @@ class Box extends Component{
             <div className="caja">
                  <div className="paragraph">
                 <div className="titulo">                 
-                    <h2>Conectamos sus necesidades con sus intereses.</h2>
+                    <h2 className="TituloCamionero">Conectamos sus necesidades con sus intereses.</h2>
                 </div>
                 <div className="titulo">              
-                     <h3>Sé parte de Cargapp.</h3>
+                     <h3 className="TituloSub">Sé parte de Cargapp.</h3>
                 </div>
   
                  </div>

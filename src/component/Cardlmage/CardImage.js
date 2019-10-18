@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
-import camionero1 from '../../logos/camionero1.jpg'; 
 import './CardImage.css';
 
 
 
 class CardImage extends Component {
   render() { 
+    const { empresa,nombreEmpresa,url } = this.props;
     return (
        <div className="content-card">
-          <a href="/Company">
+          <a href={url}>
           <div className="content-card-image">
-           <img className="people" src={camionero1} href=""/>         
-            </div> </a>
-        <div className="texto-team">
-            <h2>Empresa</h2>
-            <p>Leidy Aroca</p>
+            <img className="people" src={empresa} />        
+          </div> </a>
+        <div className="texto7">
+            <h2>{nombreEmpresa}</h2>
         </div>
       </div>
+
     );
   }
 }

@@ -9,8 +9,8 @@ class VistaN extends Component {
              <div className="fox" id="Nosotro">
              <div className="imN"></div>
              <div className="teN">
-                    <h2>CONEXIÓN DE TRANSPORTADORES, TABLEROS</h2>
-                    <h3>Y AUTÓNOMO CON TECNOLOGÍA Y EFICIENCIA</h3>
+                    <h2 className="TituloSomos">CONEXIÓN DE TRANSPORTADORES, TABLEROS</h2>
+                    <h3 className="TituloSomos">Y AUTÓNOMO CON TECNOLOGÍA Y EFICIENCIA</h3>
             </div>
              </div>
          </section>    

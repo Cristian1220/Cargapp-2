@@ -5,31 +5,46 @@ import './ContentContacto.css';
 class ContentContacto extends Component {
     render() { 
         return (
-            <div className="Contacto1">
-                     <h2 className="titu">NUESTROS NÚMEROS</h2>
-                <div className="portadaC"> 
-                    <div className="porC">                   
-                        <h3>Plataforma con</h3>
-                        <h4>1.500</h4>
-                        <p>camioneros registrados</p>
+            <div className="CardContacto">
+                <div className="CoctatoRedes"> 
+                        <h1 className="TituloContacto">Canal de comunicacion</h1>
+                        <p>Con cargapp</p>
+                        <h2>Teléfono 459 1457</h2>
+                        <p>contato@cargapp.co</p>
+                        <p>Horario de atención de 8 a.m. a 5 p.m.</p>
+                        <p> De lunes a viernes.</p>
+                   <div className="Redes">
+                      <h2>Redes sociales</h2>
+                       <div className="IconosRedes">
+                           <div className="Red"></div>
+                           <div className="Red"></div>
+                           <div className="Red"></div>
+                       </div>
                     </div>
-                    <div className="porC">                   
-                        <h3>Tenemos más de</h3>
-                        <h4>350</h4>
-                        <p>colabores</p>
-                    </div>
-                    <div className="porC">                   
-                        <h3>Cantidad de</h3>
-                        <h4>750 KMs</h4>
-                        
-                    </div>
-                    <div className="porC">                   
-                        <h3>Plataforma con</h3>
-                        <h4>250.000</h4>
-                        <p>camioneros registrados</p>
-                    </div>
-                     
                 </div>
+                        <div id="enlace-Inicio" className="lineaContacto"></div>
+                <div className="FormularioContacto">
+                              <h1 className="TituloContacto">Formulario</h1>
+                    <textarea className="Forma1"
+                    name="username" 
+                    placeholder="Nombre"
+                    /> 
+                   
+                    <textarea  className="Forma1"
+                    name="username" 
+                    placeholder="Correo"
+                    />
+
+                    <textarea  className="Forma1" 
+                    name="username" 
+                    placeholder="Telefono"
+                    /> 
+                   
+                   <textarea  className="Forma2" 
+                   name="username" 
+                   placeholder="Mensaje"
+                   />      
+               </div>
              </div>
              
          );
@@ -37,3 +52,9 @@ class ContentContacto extends Component {
 }
  
 export default ContentContacto;
+
+
+                         
+           
+              
+              

@@ -12,14 +12,14 @@ class Header extends Component {
             <header> 
                 <nav id="nav" className="nav-1">
                    <div className="logo">
-                        <img src={logo} href=""/>
+                        <a href="/">
+                        <img src={logo}/>
+                        </a> 
                    </div>
                       <div className="enlace">
-                            <a href="#" id="enlace-Inicio" className="btn-header">Inicio</a>
-                            <a href="#" id="enlace-Viajes" className="btn-header">Viajes</a>
-                            <a href="#" id="enlace-Clientes" className="btn-header">Clientes</a>
-                            <a href="#" id="enlace-Camionero" className="btn-header">Camionero</a>
-                            <a href="#" id="enlace-Sobres nostro" className="btn-header">Sobres nostros</a>
+                            <a href="/" id="enlace-Inicio" className="btn-header">Inicio</a>
+                            <a href="/SobreNosotros" id="enlace-Sobres nostro" className="btn-header">Sobres nostros</a>
+                            <a href="/ContaC" id="enlace-Contacto" className="btn-header">Contacto</a>
                     </div>
                 </nav>
 

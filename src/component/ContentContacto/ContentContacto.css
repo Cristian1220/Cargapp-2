@@ -1,32 +1,66 @@
-.Contacto1 {
-    display: flex;
-    flex-direction: column;
-    height: auto; 
-    padding: 9%; 
-}
-
-.portadaC {
+.CardContacto {
     display: flex;
     flex-direction: row;
- }
-
-.porC {
-   
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     color: black;;
-    letter-spacing: -0.8px;
-    line-height: 60px;
-    padding-top: 1%;
-    padding-left: 0.8%;
-    padding-right: 4%;
+    letter-spacing: -0.5px;
+    line-height: 20px;
     font-size: 24px;
-    margin-left: 2%;
-    margin-right: 2%;
     box-shadow: 3px 15px 22px 0px #3535358f;
     border-radius: 30px;
-    margin-bottom: 40px;
-    width: 250px;
+    width: auto;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    align-self: center;
+    background: #172158;
 }
 
+.lineaContacto {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   width: 3px;
+   height: 430px;
+   background-color: aliceblue;
+}
 
+.FormularioContacto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.Forma1 {
+     width: 90%;
+     margin: 2%;
+}
+
+.Forma2 {
+     width: 90%;
+     margin: 2%;
+     height: 150px;
+}
+
+.CoctatoRedes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.TituloContacto {
+    font-size: 50px;
+    letter-spacing: -0.8px;
+    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    font-weight: 700;
+}
