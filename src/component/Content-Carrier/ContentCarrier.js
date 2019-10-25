@@ -59,6 +59,7 @@ class ContentCarrier extends Component{
                     <div className="titulo">
                         <h1 className="tituloGen">TECNOLOGIA</h1>
                         <h3>MUCHO MAS FACIL</h3>
+                        
                     </div>
                     <div className="texto">                    
                         <p>Confiamos en la tecnología de big data y aprendizaje automático para ofrecer pasos de recolección más eficientes y nuevas oportunidades de carga..</p>

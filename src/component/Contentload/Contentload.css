@@ -1,8 +1,8 @@
 .card1 {
     display: flex;
     flex-direction: column;
-    height: 1300px;
-    padding-top: 2%;
+    height: 1200px;
+    padding-top: 3%;
  
 }
 
@@ -16,13 +16,15 @@
 .servicios3 {
     display: flex;
     flex-direction: row;
-    padding-top: 1%;
+    padding-top: 2%;
+    margin-top: 1%
 }
 
 .titulo3 {
     flex: 1; 
     padding-left: 12%;
     font-size: 34px;
+    
 }
 
 .texto1 {
@@ -58,20 +60,20 @@
 .SubTitulo { 
     font-size: 60px;
     letter-spacing: -0.8px;
-    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    background: -webkit-linear-gradient(left top, rgb(4, 2, 102), rgb(7, 78, 40) );
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent; 
     font-weight: 800;
     justify-items: center;
     text-align: center;
-    border-bottom: 2px solid yellow;
+    /* border-bottom: 2px solid yellow; */
 
 }
 
 .TituloPrincipal {
     font-size: 70px;
     letter-spacing: -0.8px;
-    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    background: -webkit-linear-gradient(left top, rgb(5, 107, 175), rgb(0, 255, 119) );
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent; 
     font-weight: 1000;
@@ -84,7 +86,7 @@
 .TextoPincial {
     font-size: 50px;
     letter-spacing: -0.8px;
-    background: -webkit-linear-gradient(left top, rgb(0, 122, 205), rgb(0, 255, 119) );
+    background: -webkit-linear-gradient(left top, rgb(23, 79, 116), rgb(0, 255, 119) );
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent; 
     font-weight: 960;   
@@ -103,13 +105,23 @@
 .ContainerTres {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    padding-bottom: 4%;
+    justify-content: space-between;
+    box-shadow: 3px 15px 26px 0px #3535358f;
+    border-radius: 12px;
+    width: 94%;
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    align-self: center;
+    background: #f1f1f3;
+    height: 700px;
+    padding-top: 2%;
 }
 
 .camionero {
     text-align: center;
-    color: black;;
+    color: rgb(100, 92, 92);;
     font-size: 20px;
     letter-spacing: -0.8px;
     line-height: 25px;

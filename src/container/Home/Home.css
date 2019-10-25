@@ -8,12 +8,71 @@
     --espacios:15px;
     --espacios-contenido:45px;
   }
+
 .container-img {
     display: flex;
     justify-content: space-between;
     margin-top: -4%;
     margin-left: 10%;
-    margin-right: 10%
-    
-    
+    margin-right: 10%   
 }
+
+ /* Diseño para celulares */
+/* #columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+} */
+
+/* Diseño para tabletas */ 
+/* @media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+ */
+
+/* @media(min-width:480px) {
+  .logo {
+      font-size: 40px;
+      height: 100px;
+      width: 200px;
+  }
+
+  .banner-titulo {
+      font-size: 30px;
+      margin: 5px o;
+  }
+
+  .banner-txt {
+      display: block;
+      font-size: 18px;
+      margin: 7px o
+  }
+
+  .info, .viajes {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -100px;
+  }
+  .info-columna {
+      width: 32%;
+  }
+  
+  .info-titulo {
+      font-size: 30px;
+      margin: 5px 0;
+  }
+  .section-titulo {
+      width: 100%;
+  }
+
+  .viajes {
+      flex-wrap: wrap;
+      margin-top: 0   
+  }
+  .viajes-columna {
+      width: 49%;
+  }
+  
+} */ 

@@ -9,7 +9,7 @@
     --espacios-contenido:45px;
   }
 
-.tranpor{
+.ContainerTreanportador{
     width: 100%;
     height: 650px;
     background-image: linear-gradient(to bottom,
@@ -23,7 +23,7 @@
     z-index: 1000;
 }
 
-.fondo {
+.Fondo {
     width: 100%;
     height: 650px;
     background-image: url('../../logos/generador.jpg');
@@ -31,13 +31,12 @@
     background-size: cover;
 }
 
-.textotran{
+.TextoTranportador{
     position: absolute;
     top: 50%;
     left: 50%; 
-    transform: translateX(-72%) translateY(-99%); 
-    width: 100%;
+    transform: translateX(-40%) translateY(-10%); 
     color:  #fff;
     text-align: center;
-    height: 100px;
+    height: 50%;
 }

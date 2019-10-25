@@ -13,7 +13,7 @@ class Header extends Component {
                 <nav id="nav" className="nav-1">
                    <div className="logo">
                         <a href="/">
-                        <img src={logo}/>
+                        <img className="LogoCargapp" src={logo}/>
                         </a> 
                    </div>
                       <div className="enlace">

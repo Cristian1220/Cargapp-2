@@ -25,68 +25,65 @@
  }
 
 
-.uno {
+.FormParte1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     border: none;
-    padding: 3px 3px 3px 0px;
+    padding: 5px 5px 5px 0px;
 }
 
-
-.dos {
+.FormParte2 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 150px;
-    padding: 3px 3px 3px 0px; 
+    padding: 5px 5px 5px 0px;
+    
 }
 
-input {
-    padding: 5px 13px;
-    height: 45px;
-    border: none;
-    background: #fff;
-}
 
-.for1 {
+.form1 {
     width: 50%;
     margin-right: 30px;
 }
 
-.for2 {
+.form2 {
     width: 20%;
     margin-right: 30px;
 }
 
-.button  {
+.ButtonTranportado {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    align-self: center;
     width: 100%;
-    padding-left: 30%;
+    margin-right: 30%;
 }
 
-.button1 {
+.ButtoT {
     background: linear-gradient(to right,
     rgb(0, 122, 205),
     rgb(0, 255, 119)
     );
-    width: 10%;
-    height: 40px;
+    width: 14%;
+    height: 50px;
     color: white;
+    margin-bottom: 2%;
 }
 
-.botton {
+.ButtonClickt {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: white;
-    padding-bottom: -3px;
+    font-weight: 500;
+    margin-top: 4%;
+    letter-spacing: 2px;
 }
 
 .titulotrn {
@@ -97,4 +94,17 @@ input {
     color: #fff;
     background: #172158;
     padding-top: 1px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #FFF;
+    font-weight: 900;
+    margin-left: 4%;
 }
+
+.PruebaTranportador {
+    color: rgb(198, 211, 22);
+    margin-left: 13%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+

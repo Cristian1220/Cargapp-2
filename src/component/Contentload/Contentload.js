@@ -59,7 +59,7 @@ class Contentload extends Component{
                 <div className="texto1">                    
                     <p>Ahorre en estructura y aproveche nuestra tecnología para obtener cargas y mantenerse al día con su flota. Si necesita inversión para sus operaciones, tenemos condiciones especiales.</p>
                 </div> 
-            </div>
+            </div>    
         </div>
         </div>       
     </div>    

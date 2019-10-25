@@ -14,9 +14,9 @@ class Company extends Component {
   render() { 
     return (
       <div className='App'>
-         <Load/>
-         <Contentload/>       
+         <Load/>    
         <Formload/>
+        <Contentload/>   
       </div>
     );
 }

@@ -16,9 +16,9 @@ class ContentContacto extends Component {
                    <div className="Redes">
                       <h2>Redes sociales</h2>
                        <div className="IconosRedes">
-                           <div className="Red"></div>
-                           <div className="Red"></div>
-                           <div className="Red"></div>
+                           <div className="RedIcono"></div>
+                           <div className="RedIcono"></div>
+                           <div className="RedIcono"></div>
                        </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ class ContentContacto extends Component {
                     name="username" 
                     placeholder="Nombre"
                     /> 
-                   
+                
                     <textarea  className="Forma1"
                     name="username" 
                     placeholder="Correo"
@@ -45,6 +45,11 @@ class ContentContacto extends Component {
                    placeholder="Mensaje"
                    />      
                </div>
+             {/*   <div className="button">
+                  <div className="button1" onClick="">
+                      <p className="botton">ENVIO</p>
+                  </div>
+               </div>  */} 
              </div>
              
          );
