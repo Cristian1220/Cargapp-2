@@ -15,6 +15,7 @@
     width: 100%;
     background: #172158;
     height: auto;
+    padding-bottom: 3%;
 }
 
 .FomularioCamionero2 {
@@ -32,13 +33,25 @@
     padding: 3px 3px 3px 0px;
 }
 
+.TituloCamioneroForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #FFF;
+    font-weight: 900;
+    margin: 4%;
+}
+
 .FormCamioneroDos {
     display: flex;
     justify-content: column;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
     border: none;
     padding: 3px 3px 3px 0px;
+    padding-left: 12%; 
 }
 
 .FormularioSeleccion {
@@ -53,8 +66,7 @@
     width: 50%;
     margin-left: 12%;
     margin-right: 2%;
-    height: 50px;
-    
+    height: 50px;   
 }
 
 .FormDos {
@@ -63,6 +75,19 @@
     height: 50px;
 }
 
+.FormTres {
+    width: 60%;
+    margin-right: 12%;
+    height: 50px;
+    margin-bottom: 2%;
+}
+
+.FormCuadro {
+    width: 40%;
+    margin-right: 12%;
+    height: 50px;
+}
+ 
 .FormSeleccion {
     width: 20%;
     margin-right: 3%;
@@ -78,34 +103,36 @@
     padding-top: 4px;
 }
 
-.button  {
+.ButtoCamionero {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-left: 30%;
+    justify-content: flex-end ;
+    margin-right: 5%;
+    margin-top: 2%;
 }
 
-.button1 {
+.ButtoC {
     background: linear-gradient(to right,
     rgb(0, 122, 205),
     rgb(0, 255, 119)
     );
     width: 10%;
-    height: 40px;
+    height: 6%;
     color: white;
 }
 
-.botton {
+.ButtonClickCamionero {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: white;
+    margin-top: 5%;
 }
 
-.Disponible{
+.Disponible {
+    display: flex;
+    flex-direction: column;
     margin-left: 12%;
     margin-right: 12%;
     color: #fff;
@@ -131,5 +158,117 @@
    align-items: center;
 }
 
+.CajaformularioCamionero {
+    display: flex;
+    flex-direction: row;
+}
 
+.FormTipoFor {
+     display: flex;
+     flex-direction: row;
+    
+}
 
+.FormTipo {
+    width: 40%;
+    margin-right: 3%;
+    height: 50px;
+    margin-bottom: 1%;
+    margin-top:1%;
+}
+
+.FormTipoFor2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.PruebaCamionero {
+    color: yellow;
+    margin-left: 12%; 
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+@media (max-width:768px) {
+
+    .FormularioCamionero {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .FomularioCamionero2 {
+        flex-direction: column;
+    }
+
+    .FormCamioneroUno {
+        flex-direction: column;
+    }
+
+    .FormUno {
+        margin-left: 1%;
+        width: 75%;
+        height: 80px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .FormDos {
+        margin-right:  2%; 
+        width: 75%;
+        height: 80px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+ 
+    .TituloCamioneroForm {
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    .FormTres {
+        width: 86%;
+        height: 80px;
+        margin-bottom: 2%;
+    }
+
+    .FormCuadro {
+        width: 86%;
+        height: 80px;
+        margin-bottom: 2%;
+    }
+
+    .FormTipoFor{
+        flex-direction: column;
+    }
+    .FormTipoFor2 {
+        flex-direction: column;
+    }
+
+    .FormTipo {
+        width: 86%;
+        height: 80px;
+        margin-bottom: 2%;
+    }
+
+    .ButtoCamionero {
+        
+        justify-content: flex-end ;
+        margin-right: 13%;
+        margin-top: 2%;
+    }
+    
+    .ButtoC {
+       
+        width: 20%;
+        height: 8%;
+        
+    }
+    
+    .ButtonClickCamionero {
+        font-size: 25px;
+        margin: 4%;
+    }
+
+}

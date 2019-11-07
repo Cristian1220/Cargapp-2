@@ -14,9 +14,8 @@
   display: flex;
   flex-direction: column;
   background: #010935;
-  height: 700x;
-  width: 100%;
-    
+  height: auto;
+  width: 100%;   
 }
 
 .footer2 {
@@ -28,8 +27,7 @@
   display: flex;
   flex-direction: column;
   flex: 3;
-  padding: 3% 12%;
-  
+  padding: 4% 12%;
 }
 
 .imgF {
@@ -42,7 +40,7 @@
   font-size: 15px;
   color: white;
   text-decoration: none;
-  line-height: 17px;
+  line-height: 18px;
 }
 
 .parte2 {
@@ -57,7 +55,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex: 7;
-  padding: 3% 11%;
+  padding: 3% 12%;
 }
 
 .linea{
@@ -105,6 +103,133 @@
 
 .derechos {
   display: flex;
-  padding: 1% 38%;
+  padding: 1% 30%;
   color: aliceblue;
+}
+
+@media (max-width: 1020px) {
+  .footer {
+    flex-direction: column;
+ 
+  }
+  .footer2 {
+    flex-direction: column;
+    margin: 1%;
+  }
+
+  .footer3 {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+  }
+
+  .parte2 {
+    margin: 2%;
+    
+  }
+  
+  .parte1 {
+    margin: 2%;
+    font-size: 20px;
+  }
+
+  .CajaTexto0 {
+    font-size: 21px;
+  }
+
+  .derechos {
+    align-items: center;
+    margin-top: 2%;
+    padding: 1% 10%;
+    margin-left: 20%;
+  }
+  .imgF {
+    padding-bottom: 7%;
+    width: 120px;
+    height: 96px;
+  }
+}
+
+@media (max-width:771px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer2 {
+    flex-direction: column;
+    margin: 2%;
+  }
+
+  .footer3 {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+  }
+
+  .parte2 {
+    margin: 2%;
+    
+  }
+  
+  .parte1 {
+    margin: 2%;
+    font-size: 20px;
+  }
+
+  .CajaTexto0 {
+    font-size: 15px;
+  }
+
+  .derechos {
+    align-items: center;
+    margin-top: 2%;
+    padding: 1% 19%;
+    margin-left: 5%;
+    
+  }
+}
+
+@media (max-width:460px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer2 {
+    flex-direction: column;
+  }
+
+  .footer3 {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+  }
+
+ .parte2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+  } 
+  
+  .parte1 {
+    margin: 1%;
+    font-size: 15px;
+  }
+
+  .CajaTexto0 {
+    font-size: 15px;
+  }
+
+  .derechos {
+    margin-top: 5%;
+    padding: 4% 4% ;
+    font-size: 10px;
+    margin-left: 10%;
+  }
+
+  .cuadro { 
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 7;
+    padding: 1% 15%;
+  }
+  
 }
