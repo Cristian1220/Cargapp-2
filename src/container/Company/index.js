@@ -10,11 +10,11 @@ import Contentload from '../../component/Contentload/Contentload';
 import './Company.css';
 
 
-class Company extends Component {          
+class Company extends Component {        
   render() { 
     return (
       <div className='App'>
-         <Load/>    
+         <Load/>   
         <Formload/>
         <Contentload/>   
       </div>
