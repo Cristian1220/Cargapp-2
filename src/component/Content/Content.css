@@ -1,37 +1,18 @@
-:root {
-    --color1:#D3E5FF;
-    --color2:#00c38c;
-    --color3:#010935;
-    --fondo:#ffff;
-    --titulos:40px;
-    --margenes:10px;
-    --espacios:15px;
-    --espacios-contenido:45px;
-  }
 
 .team {
     width: 100%;
     height: 600px;
-    background-image: linear-gradient(to bottom,
-    rgb(161, 231, 250, 0.5),
-    rgb(4, 199, 134, 0.5),
-    rgb(76, 44, 218, 0.5)
-    );
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    z-index: 1000;
 }
 
 .fondo {
     width: 100%;
     height: 600px;
-    background-image: url('../../logos/fondo3.ico');
+    background-image: url('../../logos/Home_1200_2.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
-.textos{
+/* .textos{
     position: absolute;
     top: 50%;
     left: 50%; 
@@ -40,5 +21,25 @@
     color:  #fff;
     text-align: center;
     height: 100px;
+} */
+
+@media (max-width: 1085px) {
+    .fondo {
+        height: 900px;
+        background-size: contain;
+    }
 }
 
+@media (max-width: 420px) {
+    .fondo {
+        background-image: none;
+        height: auto;
+        padding-bottom: 70%;
+
+    }
+    body {
+        background-image: url('../../logos/Home_376.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

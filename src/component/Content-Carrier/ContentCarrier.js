@@ -3,7 +3,7 @@ import generadorM from '../../logos/generadorM.jpeg';
 import negocio from '../../logos/negocio.jpeg';
 import capital from '../../logos/capital.png';
 import dinero from '../../logos/dinero.png';
-import celular from '../../logos/celular.png';
+import celular from '../../logos/dinero.png';
 import './ContentCarrier.css';
 
 class ContentCarrier extends Component{
@@ -55,7 +55,7 @@ class ContentCarrier extends Component{
                     </div>
                 </div>
                 <div className="serGenerador">   
-                    <img className="IMG1"  src={celular} href=""/> 
+                    <img className="IMG1"  src={dinero} href=""/> 
                     <div className="titulo">
                         <h1 className="tituloGen">TECNOLOGIA</h1>
                         <h3>MUCHO MAS FACIL</h3>

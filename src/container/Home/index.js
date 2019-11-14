@@ -16,11 +16,12 @@ class Home extends Component {
         
          <Content />
          <div className="container-img">
-          <CardImage empresa={images.empresa} nombreEmpresa='Generador de carga' url="/Company"/>
-          <CardImage empresa={images.foto} nombreEmpresa='Camionero' url="/Camionero"/>
-          <CardImage empresa={images.equipo} nombreEmpresa='Transportador' url="/Carrier" />
-         </div>
-        
+          <CardImage empresa={images.Empresa} nombreEmpresa='Empresa' EmpreMini={images.EmpresaMini} NombreMini='Empresa'  url="/Company"/>
+          <div className="">
+             <CardImage empresa={images.Camionero} nombreEmpresa='Camionero' EmpreMini ={images.CamioneroMini} NombreMini='Camionero' url="/Camionero"/>
+          </div>
+          <CardImage empresa={images.Transportador} nombreEmpresa='Transportador' EmpreMini={images.TransportadorMini} NombreMini='Transportador' url="/Carrier" />
+         </div>       
       </div>
     );
 }
