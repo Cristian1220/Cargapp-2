@@ -17,9 +17,7 @@ class Home extends Component {
          <Content />
          <div className="container-img">
           <CardImage empresa={images.Empresa} nombreEmpresa='Empresa' EmpreMini={images.EmpresaMini} NombreMini='Empresa'  url="/Company"/>
-          <div className="">
-             <CardImage empresa={images.Camionero} nombreEmpresa='Camionero' EmpreMini ={images.CamioneroMini} NombreMini='Camionero' url="/Camionero"/>
-          </div>
+          <CardImage empresa={images.Camionero} nombreEmpresa='Camionero' EmpreMini={images.CamioneroMini} NombreMini='Camionero' url="/Camionero"/>
           <CardImage empresa={images.Transportador} nombreEmpresa='Transportador' EmpreMini={images.TransportadorMini} NombreMini='Transportador' url="/Carrier" />
          </div>       
       </div>

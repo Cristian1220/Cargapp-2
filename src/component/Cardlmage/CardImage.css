@@ -31,13 +31,16 @@
   height: 475px; 
   display: flex;
   justify-content: center;
-  
 }
 
 .Shadow:hover{
   opacity: 0;
   box-shadow: 0 0 0 0;
 }
+
+.Shadow1 {
+  display: none;
+} 
  
 .content-card :hover {
   border-color: #00c38c;
@@ -65,11 +68,16 @@
    display: none;
  }
 
-@media (max-width:420px) {
+ .TextoMini {
+  display:  none;
+}
+
+@media (max-width:500px) {
 
   .content-card {
+    margin-top: -5%;
     display: flex;
-    width: auto;
+    width: 100%;
     height: auto;
     justify-content: center;
     flex-direction: column;
@@ -85,28 +93,49 @@
     display: none;
   }
 
-  .ImgMini{
+  .ImgMini {
     display: block;
     flex-direction: column;
     width: 100%;
-    height: 40%;
+    height: 80%;
+  }
+
+  .ImgMini:hover {
+    opacity: 1;
   }
 
   .content-card-image {
-    opacity: none;
-    margin-top: -3%;
+    opacity: 1;
+    margin-top: -1%;
     border-width: none;
     -webkit-filter: none;
     filter: none;
     transition: none;
     box-shadow: none;
     border-width: 3px;
+    border-color: #00c38c;
+   
+  
   }
 
-    .Shadow {
-    display: none;  
+  .Shadow {
+     display: none;
+  }
+ 
+  .TextoMini {
+    display: block;
+    position: absolute;
+    z-index: 900;
+    right: 10%;  
   }
 
+   .TextoMini h3 {
+    font-size: 25px;
+    font-weight: 990; 
+    
+    /* border-bottom: 2px  solid  #00c38c; */
+   }
+  
 }
 
 

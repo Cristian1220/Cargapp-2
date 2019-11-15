@@ -12,10 +12,12 @@
 .ContainerPrincipal {
     
 }
-  @media (max-width:420px) {
+  @media (max-width:500px) {
     .container-img {
         flex-direction: column;
-        justify-content: space-between;
+        padding-right: 1%;
+        padding-left: 1%;
+        width: 100%;
     }
     
   }

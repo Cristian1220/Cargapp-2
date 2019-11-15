@@ -13,7 +13,7 @@ class Footer extends Component{
                 <div className="footer3">
                     <div className="parte1">
                       <img className="imgF" src={logo} /> 
-                      <p className="CajaTexto0"><b>Dirección:</b> Bogotá Carrera 13A # 89-13 Oficina 306</p>
+                      <p className="CajaTexto0"><b>Dirección:</b> Bogotá Carrera 13A # 89-39 Oficina 306</p>
                       <p className="CajaTexto0"><b>Teléfono:</b> (1) 404 41 59 - 314 278 78 82</p>
                       <p className="CajaTexto0"><b>Email:</b> info@cargapp.co</p>
                     </div>

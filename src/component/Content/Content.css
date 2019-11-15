@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     .fondo {
         background-image: none;
         height: auto;
@@ -41,5 +41,6 @@
         background-image: url('../../logos/Home_376.jpg');
         background-size: contain;
         background-repeat: no-repeat;
+ 
     }
 }
